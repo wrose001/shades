@@ -1,0 +1,18 @@
+.btnHover:hover {
+    color: #2a2a2a !important;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.footerContainer {
+    position: relative;
+    text-align: center;
+    color: #2a2a2a;
+}
+
+.bottom-center {
+    position: relative;
+    top: 20px;
+}

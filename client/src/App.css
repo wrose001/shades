@@ -1,0 +1,125 @@
+:root {
+  --mainBlue: #003355;
+  --lightBlue: #17a2b8;
+  --mainWhite: #f8f9fa;
+  --mainDark: #232528;
+  --mainYellow: #fab136;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: "Oswald", sans-serif !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.btn-black {
+  background: transparent;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.fa-cart-plus {
+  cursor: pointer;
+  color: var(--mainYellow);
+}
+
+.fa-portrait {
+  cursor: pointer;
+  color: var(--mainYellow);
+}
+
+.colorLightBlue {
+  color: var(--lightBlue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Review {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+/* 
+body {
+  background-color: rgb(244, 236, 244);
+} */
+
+.star-rating-filled {
+  fill: gold;
+  min-width: 30px;
+  height: 75%;
+  width: 75%;
+}
+
+.star-rating-blank {
+  fill: #d8d8d8;
+  min-width: 30px;
+  height: 75%;
+  width: 75%;
+}
+
+/* .logo {
+  background-image: url('./loc-logo.png');
+  height: 70px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+.flex-container {
+  display: flex;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
