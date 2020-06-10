@@ -1,6 +1,6 @@
 # Shades
 
-Shades is an  ecommerce site that offers designer sunglasses at affordable prices. 
+Shades is an e-commerce site that offers designer sunglasses at affordable prices. 
 You can find the deployed application here: https://shades-gs.herokuapp.com/
 
 
@@ -17,23 +17,34 @@ You can find the deployed application here: https://shades-gs.herokuapp.com/
 
 ## FEATURES 
 
+* Login and user authentication via OAuth
+* Leave an Amazon-style customer review with a star-rating system created with React components.
+* Increment or decrement the quantity of your purchase, which automatically calculates the your total price with tax.
+* Straightforward checkout experience built with materials.ui, after which your cart is emptied.
 
 ## INSTALLATION 
 
+1. To install this app, first run npm install.
+2. Create an env file.
+3. Be sure to obtain a Client ID and Client Secret for OAuth setup, which will be stored in the env file.
+4. Use the Developer Setting (specifically OAuth Setting) in your GitHub profile to create a prod site for OAuth.
+5. If you deploy in Heroku, you will need to add Config Vars in your app settings to include Client ID, Client Secret, Callback URL, etc. Mongo URI will already be included in the Config Var settings.
 
 ## PREVIEW 
 
-
+![Shades: An E-Commerce Site for Affordable Designer Sunglasses](client/public/shades.gif) 
 
 ## AUTHORS
 
 * **Weston Rose** - [Weston Rose](https://github.com/wros001)
-* **Rima Odolski** - [Rima Odolski](https://github.com/rimaodolski)
 * **George Sun** - [George Sun](https://github.com/georgehsun)
+* **Rima Odolski** - [Rima Odolski](https://github.com/rimaodolski)
 * **Ryan Magill** -[Ryan Magill](https://github.com/RyanMagill)
 
 
 ## ACKNOWLEDGMENTS 
+
+Many thanks to our tutors, TAs, and instructor, for all of their guidance and assistance, especially:
 
 * [Sai](https://github.com/kratuvwxyz) 
 * Calvin Carter 
