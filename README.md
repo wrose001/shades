@@ -1,6 +1,6 @@
 # Shades
 
-Shades is an e-commerce site that offers designer sunglasses at affordable prices. 
+Shades is an e-commerce MERN application that offers designer sunglasses at affordable prices. 
 You can find the deployed application here: https://shades-gs.herokuapp.com/
 
 
@@ -17,7 +17,7 @@ You can find the deployed application here: https://shades-gs.herokuapp.com/
 
 ## FEATURES 
 
-* Login and user authentication via OAuth
+* Login and user authentication via OAuth.
 * Leave an Amazon-style customer review with a star-rating system created with React components.
 * Increment or decrement the quantity of your purchase, which automatically calculates the your total price with tax.
 * Straightforward checkout experience built with materials.ui, after which your cart is emptied.
@@ -39,7 +39,7 @@ You can find the deployed application here: https://shades-gs.herokuapp.com/
 * **Weston Rose** - [Weston Rose](https://github.com/wros001)
 * **George Sun** - [George Sun](https://github.com/georgehsun)
 * **Rima Odolski** - [Rima Odolski](https://github.com/rimaodolski)
-* **Ryan Magill** -[Ryan Magill](https://github.com/RyanMagill)
+* **Ryan Magill** - [Ryan Magill](https://github.com/RyanMagill)
 
 
 ## ACKNOWLEDGMENTS 
