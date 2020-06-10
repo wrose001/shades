@@ -1,7 +1,7 @@
 # Shades
 
 Shades is an e-commerce MERN application that offers designer sunglasses at affordable prices. 
-You can find the deployed application here: https://shades-gs.herokuapp.com/
+You can find the deployed application here: https://shades-ecommerce-westonrose.herokuapp.com 
 
 
 
